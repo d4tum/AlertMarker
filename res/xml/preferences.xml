@@ -1,0 +1,20 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/proximity_alerts" >
+        <CheckBoxPreference
+            android:key="prox_alerts_active"
+            android:summaryOff="@string/pref_checkbox_prox_alerts_summary_on"
+            android:summaryOn="@string/pref_checkbox_prox_alerts_summary_off"
+            android:title="@string/activate" />
+
+        <ListPreference
+            android:defaultValue="1000"
+            android:dependency="prox_alerts_active"
+            android:entries="@array/proximityAlertRadiusArray"
+            android:entryValues="@array/proximityAlertRadiusValues"
+            android:key="prox_alert_radius"
+            android:summary="@string/pref_list_alert_radius_summary"
+            android:title="@string/radius" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

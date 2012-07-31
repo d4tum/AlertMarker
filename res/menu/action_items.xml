@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/actionbar_mylocation"
+        android:icon="@drawable/ic_action_mylocation"
+        android:showAsAction="always"
+        android:title="@string/find_my_location"/>
+    <item
+        android:id="@+id/actionbar_settings"
+        android:icon="@drawable/ic_action_settings"
+        android:showAsAction="never|withText"
+        android:title="@string/settings"/>
+
+</menu>

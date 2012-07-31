@@ -1,0 +1,16 @@
+<resources>
+
+    <string-array name="proximityAlertRadiusArray">
+        <item>1 km</item>
+        <item>2 km</item>
+        <item>5 km</item>
+        <item>10 km</item>
+    </string-array>
+    <string-array name="proximityAlertRadiusValues">
+        <item>1000</item>
+        <item>2000</item>
+        <item>5000</item>
+        <item>10000</item>
+    </string-array>
+
+</resources>

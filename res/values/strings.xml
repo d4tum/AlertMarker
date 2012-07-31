@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">Alert Marker</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Alert Marker</string>
+    <string name="find_my_location">Find My Location</string>
+    <string name="waiting_for_location">Waiting for location</string>
+    <string name="unable_to_find_address">Unable to find address</string>
+    <string name="proximity_alerts">Proximity Alerts</string>
+    <string name="pref_checkbox_prox_alerts_summary_on">This will consume more battery especially when using GPS</string>
+    <string name="pref_checkbox_prox_alerts_summary_off">Turn off proximity alerts</string>
+    <string name="activate">Activate</string>
+    <string name="pref_list_alert_radius_summary">Distance from marker that will trigger an alert</string>
+    <string name="radius">Radius</string>
+    <string name="settings">Settings</string>
+
+</resources>
