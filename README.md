@@ -2,8 +2,8 @@ AlertMarker
 ==================
 This is the Android app AlertMarker created as part of the three day Android App Programming workshop run in July 2012 by the Clayton School of Information Technology at Monash University.
 
-The app implements proximity alerts by placing markers through long pressing a position on a map.
-The purpose of the app is to introduces the 4 components of an Android app namely:
+The app implements proximity alerts through having the user place markers via a long pressing onto a position on a map.
+The purpose of the app is to introduce the four components of an Android app to workshop attendee's namely:
 - Activities
 - Services
 - Content providers
