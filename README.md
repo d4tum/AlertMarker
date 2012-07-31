@@ -24,8 +24,8 @@ The code is non-trivial and covers other topics such as:
 - Location Listener
 
 
-Proximity alerts are implemented using ```xml locationManager.addProximityAlert(double latitude, double longitude, float radius, long expiration, PendingIntent intent) ```
-from the ```xml android.location.LocationManager ``` class in a ```xml Service ```. An unique ```xml PendingIntent ``` is created for each proximity alert. When an alert fires, a ```xml BroadcastReceiver ``` captures it and sends a ``` xml Notification ``` to the devices status bar.
+Proximity alerts are implemented using ```locationManager.addProximityAlert(double latitude, double longitude, float radius, long expiration, PendingIntent intent)```
+from the ```android.location.LocationManager``` class in a ```Service ```. An unique ```PendingIntent ``` is created for each proximity alert. When an alert fires, a ```BroadcastReceiver``` captures it and sends a ```Notification``` to the devices status bar.
 
 ##Requirements
 For the map to work, a valid Google Maps Android API Key will need to be obtained - see https://developers.google.com/maps/documentation/android/mapkey
